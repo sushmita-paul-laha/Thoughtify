@@ -1,0 +1,63 @@
+React Practical Interview Questions (Basic)
+
+Create a Counter App
+
+Build a counter with Increment, Decrement, and Reset buttons.
+
+Ensure the counter doesn’t go below 0.
+
+Form Handling
+
+Create a simple form with name, email, and password.
+
+Handle state updates, validation (e.g., email must have @), and show errors below input.
+
+Conditional Rendering
+
+Display "Welcome, User!" if a user is logged in, otherwise "Please log in".
+
+Implement a button that toggles login/logout state.
+
+List Rendering
+
+Given an array of objects (e.g., users with id and name), render them as a list.
+
+Add a delete button to remove a user from the list.
+
+Fetching Data with useEffect
+
+Fetch users from https://jsonplaceholder.typicode.com/users and display their names.
+
+Show a loading spinner while fetching, and error message on failure.
+
+Pass Data via Props
+
+Create a Child component that accepts title as a prop and displays it.
+
+Render multiple child components from a parent.
+
+Controlled vs Uncontrolled Components
+
+Show how to make an input a controlled component (using useState).
+
+Convert it into an uncontrolled component (using useRef).
+
+Lifting State Up
+
+Build two inputs: Celsius and Fahrenheit.
+
+When you type in Celsius, Fahrenheit updates automatically, and vice versa.
+
+useEffect Cleanup
+
+Create a component with a timer (setInterval).
+
+Clean it up when the component unmounts.
+
+Basic Todo App
+
+Add a new task.
+
+Mark it as completed.
+
+Delete a task.
