@@ -1,6 +1,6 @@
 .form-preview-container {
   width: 380px;
-  background: linear-gradient(135deg, #fce4ec, #e73976);
+  background: linear-gradient(135deg, #fce4ec, #2929d6);
   padding: 35px 25px;
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
@@ -10,7 +10,7 @@
 .form-preview-container h1 {
   margin-bottom: 25px;
   font-size: 28px;
-  color: #d62976;
+  color: #2929d6;
   font-weight: bold;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .form-preview-container input:focus {
-  border-color: #d62976;
+  border-color: #2929d6;
   box-shadow: 0 0 8px rgba(214, 41, 118, 0.1);
 }
 
@@ -36,7 +36,7 @@
   border-radius: 18px;
   padding: 25px 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  border: 1px solid #d62976;
+  border: 1px solid #2929d6;
 }
 
 .card::before {
@@ -44,7 +44,7 @@
   display: block;
   font-size: 18px;
   font-weight: bold;
-  color: #d62976;
+  color: #2929d6;
   margin-bottom: 20px;
 }
 
